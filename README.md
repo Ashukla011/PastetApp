@@ -22,13 +22,14 @@ A simple Pastebin clone for storing and sharing text snippets online.
    cd backend
 
 2. npm install
-3. npm run start
-
-#### For Frondend
-  ```bash
- cd frontend
- npm start
+3. npm  start
 
 
+## Persistence Layer
 
+This application uses **Redis** as the persistence layer to store pastes temporarily.  
+
+- Redis is an in-memory key-value store, which makes storing and retrieving text snippets very fast.  
+- Data is volatile by default, so pastes may be lost if the server restarts, unless Redis persistence is configured.  
+- Redis acts as the backend database for all paste operations.
 
