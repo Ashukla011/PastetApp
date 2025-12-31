@@ -22,5 +22,13 @@ A simple Pastebin clone for storing and sharing text snippets online.
    cd backend
 
 2. npm install
-3. npm start
+3. npm run start
+
+#### For Frondend
+  ```bash
+ cd frontend
+ npm start
+
+
+
 
