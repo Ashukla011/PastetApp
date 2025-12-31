@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000/api"; // Update for deployed backend
+const BASE_URL = "https://paste-w792.onrender.com/api"; //  backend
 
 export const createPaste = async (data) => {
   return axios.post(`${BASE_URL}/pastes`, data);
