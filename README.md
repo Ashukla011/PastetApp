@@ -19,9 +19,8 @@ A simple Pastebin clone for storing and sharing text snippets online.
 1. **Clone the repository**
    ```bash
    git clone (https://github.com/Ashukla011/PastetApp.git)
-   cd /
+   cd backend
 
 2. npm install
-3. redis-server
-4. npm start
+3. npm start
 
